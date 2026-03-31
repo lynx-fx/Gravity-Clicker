@@ -10,6 +10,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 # Load templates for run and retry buttons
 templates = {
     "run": cv2.imread(os.path.join(script_dir, "run.png")),
+    "allow": cv2.imread(os.path.join(script_dir, "allow.png")),
     "retry": cv2.imread(os.path.join(script_dir, "retry.png")),
     "accept": cv2.imread(os.path.join(script_dir, "accept.png"))
 }
